@@ -1,0 +1,274 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home{
+    font-weight: bold; 
+    font-size: 22px; 
+    color: rgb(44, 76, 202);
+    line-height: 30px;
+}
+.info{
+    font-weight: bold; 
+    font-size: 15px; 
+    color: rgb(31, 62, 114);
+    line-height: 35px;
+}
+.submenu{
+    font-size: 12.5px; 
+    font-weight: 600; 
+    color: rgb(112, 112, 112); 
+    line-height: 22px;
+    text-align: left;
+}
+.submenu2{
+    font-size: 14px; 
+    font-weight: 600; 
+    color: rgb(112, 112, 112); 
+    line-height: 22px;
+    text-align: left;
+}
+.telnumber{
+    font-size: 12.5px; 
+    font-weight: 600; 
+    color: rgb(112, 112, 112); 
+    line-height: 22px;
+    text-align: left;
+    padding: 15px;
+    padding-top: 0px;
+    display: inline;
+}
+.boxtitle{
+    font-size: 16px; 
+    font-weight: 600; 
+    color: rgb(31, 62, 114); 
+    line-height: 18px;
+    text-align: left;
+    padding: 15px;
+    padding-top: 0px;
+    display: inline;
+}
+.boxtitle2{
+    font-size: 16px; 
+    font-weight: 600; 
+    color: rgb(31, 62, 114); 
+    line-height: 18px;
+    text-align: left;
+}
+.boxtext{
+    font-size: 11px; 
+    font-weight: 600; 
+    color: rgb(112, 112, 112); 
+    line-height: 14px;
+    text-align: left;
+    padding: 15px;
+    padding-top: 0px;
+    display: inline;
+}
+.boxtext1{
+    font-size: 11px; 
+    font-weight: 600; 
+    color: rgb(112, 112, 112); 
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+}
+.imag{
+    height: 550px;
+}
+.imag2{
+    height: 421px;
+    width: 400px;
+}
+.table{
+    height: 580px;
+}
+.table2{
+    height: 175px; 
+    width: 200px;
+}
+.table3{
+    width: 850px;
+    height: 175px;
+    text-align: justify;
+}
+.mini{
+    font-size: 11px; 
+    color:rgb(112, 112, 112)
+}
+.title{
+    color: rgb(31, 62, 114);
+    font-size:45px; 
+    font-weight:700;
+}
+.subtitle{
+    color: rgb(31, 62, 114); 
+    font-size: 25px;
+    font-weight:800;
+}
+.subtitle2{
+    height: 10%;
+}
+.subtitle3{
+    height: 20%;
+}
+.boton0 {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(44, 76, 202); /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    font-size: 12.5px;
+    font-weight: 500;
+    border-radius: 5px; /*bordes redondos*/
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);
+}
+.boton {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(238, 243, 255); /*color botón*/
+    color: rgb(44, 76, 202); /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    font-size: 12.5px;
+    font-weight: 700;
+    border-radius: 5px; /*bordes redondos*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.boton:hover {
+    background-color: rgb(44, 76, 202); /* Green */
+    color: rgb(238, 243, 255);
+}
+.boton2 {
+
+    background-color: rgb(255, 255, 255); /*color botón*/
+    color: rgb(112, 112, 112); /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    font-size: 12.5px;
+    font-weight: 500;
+    border-radius: 5px; /*bordes redondos*/
+}
+.boton3 {
+    color: rgb(112, 112, 112); /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    border-radius: 5px; /*bordes redondos*/
+    font-size: 11px; 
+    font-weight: 600; 
+    line-height: 30px;
+    text-align: left;
+    vertical-align: top;
+}
+.div-input {
+    position: absolute;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 515px;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);
+}
+.div-input2 {
+    position: static;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.95);
+    flex-wrap: wrap;
+    width: 180px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);
+}
+.div-input3 {
+    position: static;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.95);
+    flex-wrap: wrap;
+    width: 180px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);
+}
+.div-input4 {
+    position: static;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.95);
+    flex-wrap: wrap;
+    width: 180px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);
+}
+.div-input5 {
+    text-align: justify;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);
+    padding: 0px;
+}
+.bar1{
+    font-size: 14px; 
+    font-weight: 600; 
+    color: rgb(112, 112, 112);
+    text-align: left;
+    line-height: 0px;
+}
+.bar2{
+    -webkit-appearance: none;
+    border: 0px;
+    color: rgb(44, 76, 202);
+    font-size: 17px; 
+    font-weight: 700;
+    text-align: right;
+}
+.bar3{
+    width: 25%;
+}
+.bar4{
+    text-align: right;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+.logos{
+    width: 185px; 
+    height: 105px;
+    opacity: .1;
+}
+.boxicon{
+    width: 40%;
+    color: rgb(44, 76, 202); 
+    font-size: 46px; 
+    padding: 15px; 
+    padding-bottom: 0px;
+}
+.desplg{
+    font-size: 16px; 
+    font-weight: 700; 
+    color: rgb(31, 62, 114);
+    height: 40px;
+    padding-block: 0px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: rgb(31, 62, 114);
+    line-height: 13px;
+    list-style: none;
+    
+}
+.desplg2{
+    background-color: #ffffff;
+    padding-block: 0px;
+    padding: 5px;
+    padding-left: 57px;
+    padding-right: 57px;
+    line-height: 14px;
+    font-size: 11px; 
+    font-weight: 600; 
+    color: rgb(112, 112, 112);
+}
